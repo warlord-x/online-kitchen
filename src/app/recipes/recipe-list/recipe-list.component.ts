@@ -9,7 +9,8 @@ import {Recipe} from '../recipe.model';
 export class RecipeListComponent implements OnInit {
 
   recipes: Recipe[] = [
-    new Recipe('recipe1Name', 'recipe1Desc', 'https://www.google.de/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png')
+    new Recipe('recipe1Name', 'recipe1Desc', 'https://www.google.de/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png'),
+    new Recipe('recipe2Name', 'recipe2Desc', 'https://www.google.de/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png')
   ];
 
   constructor() { }
